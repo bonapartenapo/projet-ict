@@ -1,0 +1,14 @@
+@import url(tools/variables.css);
+@import url(base/body.css);
+@import url(../css/tools/title.css);
+@import url(../css/tools/btn.css);
+@import url(../css/tools/size-img.css);
+@import url(../css/tools/input.css);
+/* @import url(../tailwindcss/dist/global/header.css); */
+
+@import url(../tailwindcss/dist/page/index.css);
+@import url(../css/page/produit.css);
+@import url(../css/page/panier.css);
+@import url(../css/page/description.css);
+@import url(../css/page/forgot-password.css);
+@import url(../tailwindcss/dist/global/footer.css);

@@ -1,0 +1,12 @@
+.nike-panier, .text-forgot-mdp
+{
+    font-weight: 600;
+    padding-top: 1rem;
+    font-size: 32px;
+}
+
+/* partir forgot-password */
+.text-forgot-mdp
+{
+    line-height: 5rem;
+}

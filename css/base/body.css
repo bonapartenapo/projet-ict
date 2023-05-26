@@ -1,0 +1,9 @@
+body
+{
+    background-color: var(--bg-wideMode);
+    font-size: var(--22px);
+    color: var(--black-text);
+    font-family: 'Poppins';
+    font-style: normal;
+}
+

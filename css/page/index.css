@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn-login
+{
+    @apply bg-white w-32 rounded
+} 
+
+.header-index
+{
+    
+    background-image: url(../../../img/header/bg.png); 
+
+    background-repeat: no-repeat;
+    
+    /* height: 70rem; */
+    @apply bg-cover;
+}
+
+
+.h1-header
+{
+    @apply text-4xl
+}
+
+.img-bg
+{
+    
+    @apply  flex justify-center items-center;
+}
+.boy
+{
+    height: 40rem;
+}
+
+nav,.liste
+{
+    @apply flex gap-3 justify-around relative top-3
+}
+
+.liste
+{
+    vertical-align: middle;
+}
+.top-header
+{
+    @apply absolute top-1/2 left-1/2 text-center text-white;
+    transform: translate(-50%, -50%);
+}
+.top-header > input
+{
+    @apply flex left-32 
+}
+
+
+/* section 1*/
+.section-1
+{
+    
+    background-image: url(../../../img/body/section-1/shoe-3.jpeg);
+    @apply text-white
+}
+.img-timber
+{
+    width:var(--30-rem); 
+    height: var(--30-rem);
+}
+.section-1 > .collection
+{
+     @apply p-16
+}
+.collection > .top-div-collection
+{
+    
+    @apply flex 
+}
+.top-div-collection > .h2-collection
+{
+    
+    @apply  text-center relative top-52 left-32 text-3xl 
+}
+
+.h2-collection > input
+{
+    @apply flex left-16
+}
+
+.btn-decouvrir
+{
+    @apply relative top-10
+}
+
+.top-collection
+{
+    @apply flex  relative top-10 gap-3
+}
+
+.vetment-home
+{
+    @apply  text-center
+}
+
+.img-timber-2
+{
+    @apply w-96;
+}
+
+/* section 2 */
+.section-2
+{
+    background-image: url(../../../img/body/section-2/bg-shoes.png);
+    height: var(--45-rem);
+    @apply w-full bg-cover relative mt-28 text-white;
+}
+
+.section-2 > .promotion
+{
+    @apply flex flex-col p-20 relative top-1/3 gap-16
+}
+.text-promotion
+{
+    @apply text-4xl
+}
+.ligne-promotion
+{
+    @apply relative;
+    top: var(--moin-1);
+}
+
+/*section 3*/
+.section-3 > h2
+{
+    line-height: var(--lh-12rem);
+    font-size: var(--fs-12rem);
+    
+    @apply text-center ;
+}
+.text-img-section-3
+{
+    padding-left: var(--pl-5rem
+    );
+    @apply flex;
+}
+
+.text-section-3
+{
+    @apply relative top-20 left-20
+}
+
+.sous-text-section-3
+{
+  @apply relative top-7
+}
+.categories-section-3
+{   
+    @apply flex
+}
+.left-categories-section-3
+{
+    float: right;
+    @apply relative right-32 top-10
+}
+.left-section-3
+{
+    
+    @apply relative left-20 flex flex-col gap-10 
+}
+.direction-img
+{
+    @apply w-24 h-9
+}
+
+
+

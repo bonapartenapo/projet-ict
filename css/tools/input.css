@@ -1,0 +1,47 @@
+/* description-produit */
+.search-box {
+    display: flex;
+    padding-left: var(--pl-25rem);
+    position: relative;
+    top: var(--top-3rem);
+  }
+
+
+  .search-box > input[type="text"] {
+    padding-left: var(--pl-4rem);
+    width: var(--w-500px);
+    height: var(--h-45px);
+    background-image: url(../../img/body/produit/article/search.png);
+    background: rgba(224, 224, 224, 0.8);
+    border: 1px solid rgba(224, 224, 224, 0.8);
+    border-radius: var(--rounded-8px);
+  }
+  .search-box > img
+  {
+    position:  relative;
+    height: var(--h-35px);
+    width: var(--w-25px);
+    padding-top: var(--pt-11px);
+    left: var(--left-3rem);
+    
+  }
+
+
+  /* partir forgot password */
+
+  .Email-forgot-mdp > input[type="text"]
+  {
+    
+    background: rgba(224, 224, 224, 0.8);
+    border: 1px solid rgba(224, 224, 224, 0.8);
+    width: var(--w-400px);
+    height: var(--h-45px);
+    color: white;
+
+  }
+
+  .Email-forgot-mdp
+  {
+    padding-top: 30px;
+   
+  }

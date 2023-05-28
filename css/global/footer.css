@@ -1,36 +1,43 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* partir footer */
+
 footer
 {
-    background-color: #D6DADE;
-    @apply p-20 relative top-28
-}
-.footer
-{
-    @apply flex flex-wrap gap-10
-}
-.img-footer-1,.img-footer-2,.icone-footer
-{
-    
-    @apply flex gap-3 
-}
-.img-size
-{
-    @apply w-20 h-20
-}
-.footer-nav,.contact-footer,.icone-footer
-{
-    line-height: 3rem;
-}
-.icone-footer
-{
-    @apply  relative top-10  gap-8
+  background-color: #D6DADE;
+  position: relative;
+  top: 7rem;
+  padding: 5rem
 }
 
-.copyright
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.img-footer-1,.img-footer-2,.icone-footer {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.img-size {
+  height: 5rem;
+  width: 5rem;
+}
+
+.footer-nav,.contact-footer,.icone-footer
 {
-    @apply  flex  justify-center relative top-20
+  line-height: 3rem;
+}
+
+.icone-footer {
+  position: relative;
+  top: 2.5rem;
+  gap: 2rem;
+}
+
+.copyright {
+  position: relative;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
 }

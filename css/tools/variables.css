@@ -24,10 +24,16 @@
     --fs-12rem: 12rem;
     --fs-12rem: 2rem;
 
+    --lh-L3: 3rem;
+    --lh-L4: 4rem;
+    --lh-L5: 5rem;
     --lh-12rem: 12rem;
 
     --w-full: 100%;
+    --w-L5: 5rem;
+    --w-L11: 11rem;
     --w-L21: 21rem;
+    --w-L24: 24rem;
     --w-L40: 40rem;
     --w-25px: 25px;
     --w-30px: 30px;
@@ -45,6 +51,7 @@
 
 
     --h-full: 100%;
+    --h-L5: 5rem;
     --h-L21: 21rem;
     --h-L40: 40rem;
     --h-25px: 25px;
@@ -74,6 +81,9 @@
     --gap-400: 40px;
     
     --top-3rem: 3rem;
+    --top-L5: 5rem;
+    --top-L6: 6rem;
+    --top-L7: 7rem;
     --top-10: 10px;
     --top-20: 20px;
     --top-30: 30px;
@@ -81,6 +91,9 @@
     --top-50: 50px;
     --top-60: 60px;
     --top-80: 80px;
+
+    --p-L5: 5rem;
+    --p-L6: 6rem;
 
 
     --left-3rem: 3rem;
@@ -90,6 +103,9 @@
     --left-5px: 5px;
     
 
+    --pt-L1: 1rem;
+    --pt-L2: 2rem;
+    --pt-L3: 3rem;
     --pt-L6: 6rem;
     --pt-11px: 11px;
     --pt-15px: 15px;
@@ -101,6 +117,7 @@
 
     --pl-4rem: 4rem;
     --pl-5rem: 5rem;
+    --pl-10rem: 10rem;
     --pl-25rem: 25rem;
 
     --rounded-5px: 5px;

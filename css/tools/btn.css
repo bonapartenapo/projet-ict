@@ -1,5 +1,5 @@
-/* btn acceuil header*/
-
+/* btn acceuil /
+/* header */
 .btn-sign-in
 {
   /* background: #000000; */
@@ -31,14 +31,31 @@
   border-width: 1px;
   display: flex;
   height: 3.5rem;
-  width: 11rem;
+  width: var(--w-L11);
   justify-content: center;
   border-style: solid;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity))
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  position: relative;
+  top: 2.5rem;
 }
 
 
+
+
+
 /* partir panier */
+
+.btn-secondary
+{
+  box-sizing: border-box;
+  color: var(--white);
+  width: var(--w-130px);
+  height: var(--h-50px);
+  background: var(--btn-buy);
+  border: 1px solid rgba(var(--btn-buy));
+  border-radius: var(--rounded-8px);   
+}
+
 .btn-acheter-commande
 {
     /* Btn/primary */

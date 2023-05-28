@@ -1,3 +1,20 @@
+/* partir index */
+.img-timber
+{
+  width:var(--30-rem);
+  height: var(--30-rem);
+}
+.img-timber-2 {
+    width: var(--w-L24);
+  }
+
+.img-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 /* partir description-produit */
 .size-shoe-description
 {

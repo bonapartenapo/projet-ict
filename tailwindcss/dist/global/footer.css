@@ -519,8 +519,8 @@ footer
 {
   background-color: #D6DADE;
   position: relative;
-  top: 7rem;
-  padding: 5rem
+  top: var(--top-L7);
+  padding: var(--p-L5);
 }
 
 .footer {
@@ -535,19 +535,19 @@ footer
 }
 
 .img-size {
-  height: 5rem;
-  width: 5rem;
+  height: var(--h-L5);
+  width: var(--w-L5);
 }
 
 .footer-nav,.contact-footer,.icone-footer
 {
-  line-height: 3rem;
+  line-height: var(--lh-L3);
 }
 
 .icone-footer {
   position: relative;
   top: 2.5rem;
-  gap: 2rem;
+  gap: var(--gap-L2);
 }
 
 .copyright {
